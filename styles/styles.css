@@ -69,6 +69,8 @@ img {
   border-radius: 4px;
 }
 
+/* Header */
+
 .main-header {
   position: relative;
 
@@ -86,6 +88,8 @@ img {
   left: 0;
   z-index: 1;
 }
+
+/* Main-navigation */
 
 .main-navigation-list {
   display: flex;
@@ -114,6 +118,8 @@ img {
   color: #000000;
   text-decoration: none;
 }
+
+/* User-navigation */
 
 .user-navigation {
   display: flex;
@@ -163,10 +169,14 @@ img {
   background: #756257;
 }
 
+/* Main */
+
 .main-container {
   width: 1200px;
   margin: 0 auto;
 }
+
+/* Welcome section */
 
 .welcome {
   position: relative;
@@ -210,13 +220,53 @@ img {
   margin-bottom: 53.42px;
 }
 
+/* Order a number section */
 
+.order-a-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  width: 1200px;
+  min-height: 417px;
+  margin: 0 auto;
+  padding: 91px 240px;
+}
 
+.order-a-number-title {
+  margin: 0;
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.order-a-number-info {
+  margin: 0;
+  margin-bottom: 56px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+}
 
+.order-a-number-button{
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 60px;
+  min-width: 575px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: #756257;
+  border-radius: 10px;
+  padding: 12px 15px;
+}
 
-
-
+/* Footer */
 
 
 
