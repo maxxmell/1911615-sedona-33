@@ -1,12 +1,54 @@
-<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="images/icons/icon-favicon.png" sizes="32x32" type="image/png">
+    <title>Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <header class="main-header">
+      <h1 class="visually-hidden">Туристический сайт «Седона».</h1>
+      <a class="logo-link current-page-link" href="#">
+        <img class="logo header-logo" src="images/logo.svg" width="138" height="70" alt="Логотип туристического сайта «Седона»">
+      </a>
+      <nav class="main-navigation">
+        <ul class="navigation-list main-navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="user-list user-navigation">
+        <li class="user-item">
+          <a class="user-link search-link" href="#">
+            <span class="user-link-description visually-hidden">Поиск по сайту.</span>
+          </a>
+        </li>
+        <li class="user-item">
+          <a class="user-link favourites-link" href="#">
+            <span class="user-link-description visually-hidden">Избранное.</span>
+          </a>
+        </li>
+        <li class="user-item">
+          <button class="button order-button" type="button">Хочу сюда!</button>
+        </li>
+      </ul>
+    </header>
+    <main class="main-container">
+      <section class="welcome">
+        <h2 class="welcome-title visually-hidden">Добро пожаловать в «Седону»</h2>
+        <img class="welcome-text text-welcome" src="images/welcome-text-welcome.svg" alt="Welcome" width="187.7" height="44.7">
+        <img class="welcome-text text-gorgeus" src="images/welcome-text-gorgeus.svg" alt="to the gorgeus" width="256" height="28.78">
+        <img class="welcome-text text-sedona" src="images/welcome-text-sedona.svg" alt="Sedona Becourse the Grand Canyon sucks!" width="456.7" height="212.77">
+      </section>
+    </main>
 
   </body>
 </html>
