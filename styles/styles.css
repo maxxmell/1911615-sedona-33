@@ -314,9 +314,9 @@ img {
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
-  padding-top: 98px;
   width: 400px;
   min-height: 384px;
+  padding-top: 98px;
 
   background-color:  rgba(131, 179, 211, 0.12);
 }
@@ -328,10 +328,11 @@ img {
 
 .advantage-foto-item {
   width: 800px;
-  padding: 0;
   min-height: 384px;
-  grid-column: span 2;
+  padding: 0;
+
   background-color: #83b3d3;
+  grid-column: span 2;
 }
 
 .advantage-header {
@@ -375,8 +376,9 @@ img {
 }
 
 .advantage-more {
-  padding-top: 184px;
   position: relative;
+
+  padding-top: 184px;
 }
 
 .advantage-more .advantage-description{
